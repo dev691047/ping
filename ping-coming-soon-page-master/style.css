@@ -1,0 +1,101 @@
+main{
+    max-width: 1440px;
+    margin:0 auto 0 auto;
+    height:100vh;
+    text-align: center;
+    padding-top:50px;
+}
+body{
+    font-size: 20px;
+    color:hsl(209, 33%, 12%);
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.background-image{
+    width:70%;
+}
+
+h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h1{
+font-weight: 300;
+color:hsl(0, 0%, 59%);
+font-size: 50px;
+
+}
+p{
+    color:hsl(0, 0%, 59%);
+    font-size:15px;
+    font-weight: 600;
+}
+
+span{
+    font-weight: 700;
+    color:hsl(209, 33%, 12%);
+}
+.form-input{
+    width:350px;
+    height:40px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    outline:none;
+   
+}
+
+.btn{
+    background-color:hsl(223, 87%, 63%);
+    color:white;
+    height:45px;
+    width:150px;
+    border-radius: 30px;
+    outline:none;
+    box-shadow:0 0 20px black;
+    /* border-color: white;; */
+
+}
+
+#error{
+
+   display:flex;
+   width:380px;
+   margin:0 auto 10px auto;
+
+}
+.invalid{
+    border-color: red;
+    color:red;
+}
+.valid{
+    border-color: rgb(53, 201, 53);
+}
+
+
+
+
+
+@media(max-width:700px)
+{
+h3{
+    font-size: 15px;
+}
+h1{
+    font-size: 25px;;
+}
+.btn{
+    width:350px;
+    /* margin-bottom: 50px; */
+    box-shadow: none;
+}
+p{
+    font-size: 7px;
+}
+.background-image{
+    
+}
+
+
+
+}
